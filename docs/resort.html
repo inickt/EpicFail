@@ -18,7 +18,7 @@
             document.querySelector('#mapFrame').src = "https://mountain.live/interactive-map/" + params.get("primary") + "/us";
 
             const response = await fetch(
-                "https://api-az.vailresorts.com/digital/uiservice/api/v1/resorts/" + params.get("id") + "/maps",
+                "https://lazyman-cors.nickt.workers.dev/?https://api-az.vailresorts.com/digital/uiservice/api/v1/resorts/" + params.get("id") + "/maps",
                 {
                     headers: {
                         "client_id": "acd8be1a83f441dbb9dfa5a598a1f6d2",
