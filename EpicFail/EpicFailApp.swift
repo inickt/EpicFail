@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct EpicFailApp: App {
+    private let maps: Maps = {
+        return try! JSONDecoder().decode(
+            Maps.self,
+            from: Data(contentsOf: Bundle.main.url(forResource: "combined", withExtension: "json")!)
+        )
+    }()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MapView(map: maps.first(where: { $0.mapName.contains("Wildcat")} )!)
         }
     }
 }

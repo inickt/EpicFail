@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		01F876642B22A8C0003CBCEA /* EpicFailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F876632B22A8C0003CBCEA /* EpicFailApp.swift */; };
-		01F876662B22A8C0003CBCEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F876652B22A8C0003CBCEA /* ContentView.swift */; };
+		01F876662B22A8C0003CBCEA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F876652B22A8C0003CBCEA /* MapView.swift */; };
 		01F876682B22A8C8003CBCEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F876672B22A8C8003CBCEA /* Assets.xcassets */; };
 		01F8766B2B22A8C8003CBCEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F8766A2B22A8C8003CBCEA /* Preview Assets.xcassets */; };
+		01F876722B22A9F0003CBCEA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F876712B22A9F0003CBCEA /* API.swift */; };
+		01F876742B22AB34003CBCEA /* combined.json in Resources */ = {isa = PBXBuildFile; fileRef = 01F876732B22AB34003CBCEA /* combined.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01F876602B22A8C0003CBCEA /* EpicFail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpicFail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F876632B22A8C0003CBCEA /* EpicFailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicFailApp.swift; sourceTree = "<group>"; };
-		01F876652B22A8C0003CBCEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01F876652B22A8C0003CBCEA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		01F876672B22A8C8003CBCEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01F8766A2B22A8C8003CBCEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01F876712B22A9F0003CBCEA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		01F876732B22AB34003CBCEA /* combined.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = combined.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				01F876632B22A8C0003CBCEA /* EpicFailApp.swift */,
-				01F876652B22A8C0003CBCEA /* ContentView.swift */,
+				01F876652B22A8C0003CBCEA /* MapView.swift */,
+				01F876712B22A9F0003CBCEA /* API.swift */,
 				01F876672B22A8C8003CBCEA /* Assets.xcassets */,
 				01F876692B22A8C8003CBCEA /* Preview Content */,
+				01F876732B22AB34003CBCEA /* combined.json */,
 			);
 			path = EpicFail;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01F8766B2B22A8C8003CBCEA /* Preview Assets.xcassets in Resources */,
+				01F876742B22AB34003CBCEA /* combined.json in Resources */,
 				01F876682B22A8C8003CBCEA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F876662B22A8C0003CBCEA /* ContentView.swift in Sources */,
+				01F876662B22A8C0003CBCEA /* MapView.swift in Sources */,
+				01F876722B22A9F0003CBCEA /* API.swift in Sources */,
 				01F876642B22A8C0003CBCEA /* EpicFailApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
