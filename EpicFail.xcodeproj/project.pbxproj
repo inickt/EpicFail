@@ -13,6 +13,9 @@
 		01F8766B2B22A8C8003CBCEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F8766A2B22A8C8003CBCEA /* Preview Assets.xcassets */; };
 		01F876722B22A9F0003CBCEA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F876712B22A9F0003CBCEA /* API.swift */; };
 		01F876742B22AB34003CBCEA /* combined.json in Resources */ = {isa = PBXBuildFile; fileRef = 01F876732B22AB34003CBCEA /* combined.json */; };
+		01F876762B22B68B003CBCEA /* ResortsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F876752B22B68B003CBCEA /* ResortsListView.swift */; };
+		01F876782B22B738003CBCEA /* ResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F876772B22B738003CBCEA /* ResortView.swift */; };
+		01F8767A2B22D0B1003CBCEA /* all.json in Resources */ = {isa = PBXBuildFile; fileRef = 01F876792B22D0B1003CBCEA /* all.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		01F8766A2B22A8C8003CBCEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01F876712B22A9F0003CBCEA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		01F876732B22AB34003CBCEA /* combined.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = combined.json; sourceTree = "<group>"; };
+		01F876752B22B68B003CBCEA /* ResortsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortsListView.swift; sourceTree = "<group>"; };
+		01F876772B22B738003CBCEA /* ResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortView.swift; sourceTree = "<group>"; };
+		01F876792B22D0B1003CBCEA /* all.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = all.json; path = maps/all.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				01F876672B22A8C8003CBCEA /* Assets.xcassets */,
 				01F876692B22A8C8003CBCEA /* Preview Content */,
 				01F876732B22AB34003CBCEA /* combined.json */,
+				01F876752B22B68B003CBCEA /* ResortsListView.swift */,
+				01F876772B22B738003CBCEA /* ResortView.swift */,
+				01F876792B22D0B1003CBCEA /* all.json */,
 			);
 			path = EpicFail;
 			sourceTree = "<group>";
@@ -132,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01F8766B2B22A8C8003CBCEA /* Preview Assets.xcassets in Resources */,
+				01F8767A2B22D0B1003CBCEA /* all.json in Resources */,
 				01F876742B22AB34003CBCEA /* combined.json in Resources */,
 				01F876682B22A8C8003CBCEA /* Assets.xcassets in Resources */,
 			);
@@ -146,6 +156,8 @@
 			files = (
 				01F876662B22A8C0003CBCEA /* MapView.swift in Sources */,
 				01F876722B22A9F0003CBCEA /* API.swift in Sources */,
+				01F876782B22B738003CBCEA /* ResortView.swift in Sources */,
+				01F876762B22B68B003CBCEA /* ResortsListView.swift in Sources */,
 				01F876642B22A8C0003CBCEA /* EpicFailApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

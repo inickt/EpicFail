@@ -1,0 +1,2067 @@
+[
+    {
+        "resortId": "36",
+        "title": "Mt. Brighton",
+        "displayName": "Mt. Brighton",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt3445db843d083aef/6527146dc85f136092cd203a/mtbrighton-resort-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blte9288090b9ae89c3/644022a4e8b191595dde4953/mount-brighton-logo_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20200222_MB_ONeill_001",
+        "location": {
+            "city": "Brighton",
+            "state": "MI",
+            "latitude": "42.5408",
+            "longitude": "-83.8115",
+            "elevation": "1101"
+        },
+        "brandColor": {
+            "backgroundColor": "#583293",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "Frontside",
+            "id": "dc4b7a99-050e-4bbe-916e-09ecd1b83cd1"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.mtbrighton.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "810-229-9581"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.mtbrighton.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://mb.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://mb.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "24",
+        "title": "Crotched Mountain",
+        "displayName": "Crotched Mountain",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltda3f93d63592c3a6/644020109074ca2928c7a324/crotched-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt77b83f17c2036356/644022a4e082c431c88c02b6/crotched-mountain-logo-simple_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20210217_CR_Thoman_012",
+        "location": {
+            "city": "Bennington",
+            "state": "NH",
+            "latitude": "43.012",
+            "longitude": "-71.878",
+            "elevation": "1050"
+        },
+        "brandColor": {
+            "backgroundColor": "#b2d550",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "a7cf70ae-6dcb-492c-9fb8-e9f294d19797"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.crotchedmtn.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "603-588-3668"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.crotchedmtn.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://cr.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://cr.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "19",
+        "title": "Whistler Blackcomb",
+        "displayName": "Whistler Blackcomb",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltcddacdf1983ae6ff/65275908e250fe5a1e8122a5/Whistler-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltf884848dd8c5b8a9/64403662dc0035582e72ce03/wb-mono-v1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20230316_WB_Berger_004",
+        "location": {
+            "city": "Whistler",
+            "state": "BC",
+            "latitude": "50.115",
+            "longitude": "-122.9486",
+            "elevation": "2277"
+        },
+        "brandColor": {
+            "backgroundColor": "#bf2c37",
+            "lightText": true
+        },
+        "waitTimesAvailable": true,
+        "primaryMap": {
+            "name": "Main Map",
+            "id": "04cba63b-8272-4f9f-8b09-6b9c865e6a4f"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.whistlerblackcomb.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "800-766-0449"
+            },
+            "zendeskEnabled": true,
+            "zendeskLink": {
+                "href": "https://whistlerblackcomb.zendesk.com/hc/en-us",
+                "title": "Whistler Blackcomb Help Center"
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.whistlerblackcomb.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://wb.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://wb.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "34",
+        "title": "Paoli Peaks",
+        "displayName": "Paoli Peaks",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt52813a8bef569c11/6440218ba023d111df887f01/paoli-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blteceeed234053478e/644022a4ab59a227af420277/paoli-peaks-logo_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20200813_PK_PaoliPeaksPhotography_304",
+        "location": {
+            "city": "Paoli",
+            "state": "IN",
+            "latitude": "38.555",
+            "longitude": "-86.512",
+            "elevation": "900"
+        },
+        "brandColor": {
+            "backgroundColor": "#637987",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "e40313d8-433c-4a02-9bbe-498f88f15c3b"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.paolipeaks.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "812-723-4696"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.paolipeaks.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://pk.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://pk.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "26",
+        "title": "Roundtop Mountain",
+        "displayName": "Roundtop Mountain",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltc5f370e149d6c889/6440363ddc0035582e72cdff/roundtop-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt5bc21d28ed25bc5e/644022a4ae33df13339bc179/roundtop-logo-simple_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20200813_RO_RoundtopPhotography_0286",
+        "location": {
+            "city": "Lewisberry",
+            "state": "PA",
+            "latitude": "40.1095",
+            "longitude": "-76.9275",
+            "elevation": "740"
+        },
+        "brandColor": {
+            "backgroundColor": "#007fad",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "8689fc0c-2152-4023-a256-130dfef480a4"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.skiroundtop.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "717-432-9631"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.skiroundtop.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://ro.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://ro.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "32",
+        "title": "Hidden Valley",
+        "displayName": "Hidden Valley",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt9ebd96528c756008/6440210afa6b79233e8d618b/hidden-valley-bug-heavy-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt4ca8d089f198ded8/644022a4c93b1e54916bae5b/hidden-valley-logo_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20200829_HI_HiddenValleyPhotography_419",
+        "location": {
+            "city": "Eureka",
+            "state": "MO",
+            "latitude": "38.58292473291338",
+            "longitude": "-90.66409047556002",
+            "elevation": "2316"
+        },
+        "brandColor": {
+            "backgroundColor": "#0d8194",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "84ed5777-5733-456c-a695-78c6e8ac4cc7"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.hiddenvalleyski.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contacts Us",
+                "number": "636-938-5373"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.hiddenvalleyski.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://hi.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://hi.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "6",
+        "title": "Heavenly",
+        "displayName": "Heavenly",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt0026f3a7c2190629/6440210667e76213aa9ba80f/heavenly-resort-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt9b1017134962632d/644022a4884b8852e46b7fd8/heavenly-mono-v1_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20191209_HV_Cupaiuolo_032",
+        "location": {
+            "city": "South Lake Tahoe",
+            "state": "CA",
+            "latitude": "38.9581",
+            "longitude": "-119.9429",
+            "elevation": "10067"
+        },
+        "brandColor": {
+            "backgroundColor": "#000000",
+            "lightText": true
+        },
+        "waitTimesAvailable": true,
+        "primaryMap": {
+            "name": "",
+            "id": "9b268505-964d-4e3e-9816-efee7b008b74"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.skiheavenly.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Call Us",
+                "number": "775-586-7000"
+            },
+            "zendeskEnabled": true,
+            "zendeskLink": {
+                "href": "https://skiheavenly.zendesk.com/hc/en-us",
+                "title": "Heavenly Help Center"
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.skiheavenly.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://heavenly.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://heavenly.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "35",
+        "title": "Wilmot Mountain",
+        "displayName": "Wilmot Mountain",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt3bef7e99b9fd20cb/6440218b884b8852e46b7fd0/wilmot-resort-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltbc25262b70bcd5de/644022a45f834b59633e1570/wilmot-logo_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20170104_WM_MichaelMoenning_017",
+        "location": {
+            "city": "Wilmot",
+            "state": "WI",
+            "latitude": "42.499998",
+            "longitude": "-88.18666592",
+            "elevation": "770"
+        },
+        "brandColor": {
+            "backgroundColor": "#ad253f",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "ce384ab0-84b5-4d7b-9bc8-fce8c4d5447f"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.wilmotmountain.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "262-862-2301"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.wilmotmountain.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://wm.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://wm.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "30",
+        "title": "Boston Mills Brandywine",
+        "displayName": "Boston Mills Brandywine",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blte82a077bc4df12d3/6440200bae33df13339bc169/boston-mills-brandywine-bug-heavy-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt5babe17ceaef56c9/644022a4d194fd5a99de9ef9/boston-mills-brandywine-logo_2.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20200121_BM_Conti_204",
+        "location": {
+            "city": "Peninsula",
+            "state": "OH",
+            "latitude": "41.2648",
+            "longitude": "-81.5644",
+            "elevation": "631"
+        },
+        "brandColor": {
+            "backgroundColor": "#00819e",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "Boston Mills",
+            "id": "bb64f22a-f5ce-4607-a70e-9596d12e22bb"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.bmbw.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "330-657-2334"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.bmbw.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://bmbw.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://bmbw.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "39",
+        "title": "Seven Springs",
+        "displayName": "Seven Springs",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltb7102390d2a567ff/6440218bae33df13339bc16d/7Springs-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt1c0556c332398f1a/644022a0e8b191595dde494f/SevenSprings_logo.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20221004_SS_Lewis_1",
+        "location": {
+            "city": "Seven Springs",
+            "state": "PA",
+            "latitude": "40.023",
+            "longitude": "-79.2977",
+            "elevation": "2240"
+        },
+        "brandColor": {
+            "backgroundColor": "#29659c",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "45c77804-e155-45bb-ab45-bd3929a71156"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.7springs.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "814-352-7777"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.7springs.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://ss.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://ss.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "31",
+        "title": "Mad River Mountain",
+        "displayName": "Mad River Mountain",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt17ed4e07c60d3272/6440218b5f834b59633e1568/mad-river-bug-heavy-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt59f484420a3dacd6/644022a4b1f4db27b020434a/mad-river-footer-logo_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20190106_ma_collins_011",
+        "location": {
+            "city": "Zanesfield",
+            "state": "OH",
+            "latitude": "40.3163167",
+            "longitude": "-83.6805639",
+            "elevation": "1160"
+        },
+        "brandColor": {
+            "backgroundColor": "#044e37",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "5b45d83f-79a7-4702-80f0-339bcf0e8623"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.skimadriver.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "800-231-7669"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.skimadriver.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://ma.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://ma.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "14",
+        "title": "Park City",
+        "displayName": "Park City",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltcf9bba650f3bf653/6440218b686ac411e37e46da/parkcity-resort-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltc30590bf37948c78/644022a4cd58c8595cce49d2/parkcity-mono-v1_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20210222_PC_Cartwright_009",
+        "location": {
+            "city": "Park City",
+            "state": "UT",
+            "latitude": "40.65340038135705",
+            "longitude": "-111.5083869793854",
+            "elevation": "6800"
+        },
+        "brandColor": {
+            "backgroundColor": "#99191a",
+            "lightText": true
+        },
+        "waitTimesAvailable": true,
+        "primaryMap": {
+            "name": "",
+            "id": "c1c25adf-361a-42df-a9a8-fb93f8022c4e"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.parkcitymountain.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Call Us",
+                "number": "435-649-8111"
+            },
+            "zendeskEnabled": true,
+            "zendeskLink": {
+                "href": "https://parkcitymountain.zendesk.com/hc/en-us",
+                "title": "Park City Help Center"
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.parkcitymountain.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://pc.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://pc.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "13",
+        "title": "Okemo",
+        "displayName": "Okemo",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt15e163a00aa7b758/6440218b507a5f582f917026/Okemo-Bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt604b99bbc60cf82e/644022a4762f385962b0f8ad/okemo-logo-new_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20210120_OK_Employee_009",
+        "location": {
+            "city": "Ludlow",
+            "state": "VT",
+            "latitude": "43.4118",
+            "longitude": "-72.7292",
+            "elevation": "1144"
+        },
+        "brandColor": {
+            "backgroundColor": "#006691",
+            "lightText": true
+        },
+        "waitTimesAvailable": true,
+        "primaryMap": {
+            "name": "",
+            "id": "e9fcc70b-ff0d-4801-8e4e-ca6cddbc8e5a"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.okemo.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "802-228-1600"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.okemo.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://okemo.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://okemo.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "15",
+        "title": "Vail",
+        "displayName": "Vail",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt17c0e39d9d93d7e6/6528bde3f3d800a90fd508f1/vail-resort-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt231da68545058ef8/63f939c87af6422f7a24778c/e4451f35-183e-4e9b-9f3f-d13483a049cc.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20200208_VL_Townsend_046",
+        "location": {
+            "city": "Vail",
+            "state": "CO",
+            "latitude": "39.6061",
+            "longitude": "-106.340538",
+            "elevation": "9692"
+        },
+        "brandColor": {
+            "backgroundColor": "#006cd1",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "Frontside",
+            "id": "9b3c0ddb-b2ec-4129-a569-e76665fff285"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.vail.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "970-754-8245"
+            },
+            "zendeskEnabled": true,
+            "zendeskLink": {
+                "href": "https://vail.zendesk.com/hc/en-us ",
+                "title": "Vail Help Center"
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.vail.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://vail.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://vail.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "4",
+        "title": "Breckenridge",
+        "displayName": "Breckenridge",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt02b434cc32006e97/646394c130b839ac11fd5b80/20211011_BR_footer_bug_icon_001_(1).svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltdbc58d3afa8336d1/63fcdfc91b33d910c37adc34/trace.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20220110_BR_Lococo_001",
+        "location": {
+            "city": "Breckenridge",
+            "state": "CO",
+            "latitude": "39.480227",
+            "longitude": "-106.066698",
+            "elevation": "9644"
+        },
+        "brandColor": {
+            "backgroundColor": "#004d80",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "9616c98c-c522-40db-a3da-1a1bf7f018d3"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.breckenridge.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "970-453-5000"
+            },
+            "zendeskEnabled": true,
+            "zendeskLink": {
+                "href": "https://breckenridge.zendesk.com/hc/en-us",
+                "title": "Breckenridge Help Center"
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.breckenridge.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://breck.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://breck.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "8",
+        "title": "Keystone",
+        "displayName": "Keystone",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt6b0e2704ea8cc8e8/65256d82b8038a617f30c353/Keystone_bug_white_48x48.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt8c20d77012362d25/644022a4793eef21c330bdb3/keystone-mono-v1_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20140313_KY_Affleck_006",
+        "location": {
+            "city": "Keystone",
+            "state": "CO",
+            "latitude": "39.6076",
+            "longitude": "-105.9438",
+            "elevation": "9304"
+        },
+        "brandColor": {
+            "backgroundColor": "#e52504",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "7f0a5669-a7af-4672-9bf0-56573ebd23bf"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.keystoneresort.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "970-496-4386"
+            },
+            "zendeskEnabled": true,
+            "zendeskLink": {
+                "href": "https://keystone.zendesk.com/hc/en-us ",
+                "title": "Keystone Help Center"
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.keystoneresort.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://key.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://key.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "25",
+        "title": "Liberty Mountain",
+        "displayName": "Liberty Mountain",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt678027214a7311ce/6527140ed44a2805e7fdc4b0/liberty-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt41587c3328003cdc/644022a4a39e8e5aa0f45f6a/liberty-logo-stacked_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20200107_LB_Kimmet_003",
+        "location": {
+            "city": "Fairfield",
+            "state": "PA",
+            "latitude": "39.763240360065666",
+            "longitude": "-77.3754306852958",
+            "elevation": "570"
+        },
+        "brandColor": {
+            "backgroundColor": "#487b93",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "cc9dc3a6-27e3-4a3f-a808-40b18b445f0e"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.libertymountainresort.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "717-642-8282"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.libertymountainresort.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://lb.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://lb.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "29",
+        "title": "Alpine Valley",
+        "displayName": "Alpine Valley",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltb26aed7db64d95a3/64402017dc0035582e72cdbd/alpine-valley-bug-heavy-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt3822f217fbc4776c/644022a4507a5f582f91702e/alpine-valley-logo_2.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20210303_AV_Linck-04486",
+        "location": {
+            "city": "Chesterland",
+            "state": "OH",
+            "latitude": "41.5269",
+            "longitude": "-81.2597",
+            "elevation": "1260"
+        },
+        "brandColor": {
+            "backgroundColor": "#0047ba",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "f82b4590-6139-4918-8512-1da7f8957265"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.alpinevalleyohio.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "440-285-2211"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.alpinevalleyohio.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://av.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://av.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "21",
+        "title": "Mount Snow",
+        "displayName": "Mount Snow",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt598575911b362b2f/6440218be1bb71132864bc34/mount-snow-bug-flag-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltda26796b21cadd53/644022a4e8155811eeeae4aa/mount-snow-logo_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20220211_SO_FisherCreative_806",
+        "location": {
+            "city": "West Dover",
+            "state": "VT",
+            "latitude": "42.97",
+            "longitude": "-72.93",
+            "elevation": "1900"
+        },
+        "brandColor": {
+            "backgroundColor": "#0067b1",
+            "lightText": true
+        },
+        "waitTimesAvailable": true,
+        "primaryMap": {
+            "name": "Main Map",
+            "id": "38e69141-701c-474b-9295-0933ce445ead"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.mountsnow.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "800-245-7669"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.mountsnow.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://so.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://so.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "3",
+        "title": "Beaver Creek",
+        "displayName": "Beaver Creek",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt19f1b5cc7465e964/6440261e3e745b11edf82231/beaver-creek-resort-bug--1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt6859d06514895817/644022a4e1bb71132864bc3a/beavercreek-mono-v1_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20220328_BC_Bowlin_019",
+        "location": {
+            "city": "Beaver Creek",
+            "state": "CO",
+            "latitude": "39.6043",
+            "longitude": "-106.5167",
+            "elevation": "8100"
+        },
+        "brandColor": {
+            "backgroundColor": "#176999",
+            "lightText": true
+        },
+        "waitTimesAvailable": true,
+        "primaryMap": {
+            "name": "",
+            "id": "5f4a624f-b0e1-4bda-94c7-5f715686752f"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.whistlerblackcomb.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Call Us",
+                "number": "970-754-4636"
+            },
+            "zendeskEnabled": true,
+            "zendeskLink": {
+                "href": "https://beavercreek.zendesk.com/hc/en-us",
+                "title": "Beaver Creek Help Center"
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.beavercreek.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://bc.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://bc.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "2",
+        "title": "Afton Alps",
+        "displayName": "Afton Alps",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt028996109dead0e4/64823d9cd40ad013e267ff29/AftonAlps_White.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltb3c97f97aecbbba0/64823e3ad40ad068a567ff2e/afton-logo_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20210224_aa_holden_027",
+        "location": {
+            "city": "Hastings",
+            "state": "MN",
+            "latitude": "44.857341",
+            "longitude": "-92.788891",
+            "elevation": "943"
+        },
+        "brandColor": {
+            "backgroundColor": "#ffad1f",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "e6c93539-89e8-4556-9e85-388a334bba7c"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.aftonalps.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "651-436-5245"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.aftonalps.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://aa.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://aa.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "40",
+        "title": "Hidden Valley (PA)",
+        "displayName": "Hidden Valley (PA)",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt8ada11a02e3a79f6/6440218b1a1ec621c9be673c/HiddenValley-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltbd2871af9371b48a/64403ac530099c31c9d15fbc/HV-mono-Logo-PA.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20190319_HVPA_Lewis_001",
+        "location": {
+            "city": "Hidden Valley",
+            "state": "PA",
+            "latitude": "40.0581",
+            "longitude": "-79.258",
+            "elevation": "2565"
+        },
+        "brandColor": {
+            "backgroundColor": "#00447c",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "5d94db97-cfd0-4772-9d18-22ed3c56ab2e"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.hiddenvalleyresort.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "814-443-8000"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.hiddenvalleyresort.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://hvpa.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://hvpa.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "23",
+        "title": "Wildcat Mountain",
+        "displayName": "Wildcat Mountain",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt370b5eb748658c20/6440218b762f385962b0f89f/wildcat-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt0574e29f5c2ffdbe/644022a430099c31c9d15f68/wildcat-logo_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20191219_wc_hampton_102",
+        "location": {
+            "city": "Gorham",
+            "state": "NH",
+            "latitude": "44.27",
+            "longitude": "-71.21",
+            "elevation": "1950"
+        },
+        "brandColor": {
+            "backgroundColor": "#006f66",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "c4fe5206-cd77-4381-991f-35a3c9248c9c"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.skiwildcat.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "603-466-3326"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.skiwildcat.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://wc.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://wc.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "22",
+        "title": "Attitash Mountain",
+        "displayName": "Attitash Mountain",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt9fb1b1b74e26d86f/6440204bea4ed2292f8d3fbc/attiash-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt65ba834f6ca2afd8/644022a4d91564233345cafb/attitash-logo-footer_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20210204_at_lord_910",
+        "location": {
+            "city": "Bartlett",
+            "state": "NH",
+            "latitude": "44.0829",
+            "longitude": "-71.2293",
+            "elevation": "600"
+        },
+        "brandColor": {
+            "backgroundColor": "#0047ba",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "502f477f-97e3-489d-bc70-de9538232629"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.attitash.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "603-374-2600"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.attitash.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://at.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://at.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "28",
+        "title": "Jack Frost Big Boulder",
+        "displayName": "Jack Frost Big Boulder",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt73ad26e2e7f229b4/6440210f100129549ee9e594/jfbb-bug-heavy-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltc59fd9885c8553c6/644022a4e082c431c88c02ba/jfbb_footer_logo_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20190114_JF_JackFrostPhotography_402",
+        "location": {
+            "city": "White Haven",
+            "state": "PA",
+            "latitude": "41.1075",
+            "longitude": "-75.6531",
+            "elevation": "1700"
+        },
+        "brandColor": {
+            "backgroundColor": "#ff8f06",
+            "lightText": false
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "Jack Frost",
+            "id": "df2ae136-12fc-427a-912c-d41f1fbbee02"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.jfbb.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "570-443-8425"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.jfbb.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://jfbb.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://jfbb.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "41",
+        "title": "Laurel Mountain",
+        "displayName": "Laurel Mountain",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt24705b9271107fc6/6440218be082c431c88c02a9/LaurelMountain-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt7f8eb62c20577f93/644022f1507a5f582f917032/Laurel_Mountain_Red_logo.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20201227_LM_Lewis_013",
+        "location": {
+            "city": "Boswell",
+            "state": "PA",
+            "latitude": "40.1639",
+            "longitude": "-79.1654",
+            "elevation": "2000"
+        },
+        "brandColor": {
+            "backgroundColor": "#cf463c",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "7033f4be-738c-4874-9699-af356429c6bc"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.laurelmountainski.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "724-238-2792"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.laurelmountainski.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://lm.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://lm.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "12",
+        "title": "Northstar",
+        "displayName": "Northstar",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt94e59ea8b267988b/652714b2e250feb3ef8121b5/northstar-resort-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt2524d5978d652111/644022a4a4989052e033780d/northstar-mono-v1_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20180326_NS_Munson_012",
+        "location": {
+            "city": "Truckee",
+            "state": "CA",
+            "latitude": "39.2751",
+            "longitude": "-120.1206",
+            "elevation": "8610"
+        },
+        "brandColor": {
+            "backgroundColor": "#511218",
+            "lightText": true
+        },
+        "waitTimesAvailable": true,
+        "primaryMap": {
+            "name": "",
+            "id": "0e88621c-218e-4b24-b8a5-3de6c490e3da"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.northstarcalifornia.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "530-562-1010"
+            },
+            "zendeskEnabled": true,
+            "zendeskLink": {
+                "href": "https://northstarcalifornia.zendesk.com/hc/en-us",
+                "title": "Northstar Help Center"
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.northstarcalifornia.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://ns.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://ns.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "5",
+        "title": "Crested Butte",
+        "displayName": "Crested Butte",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltb9d3cf4dc09b6f5f/6440207b30099c31c9d15f50/CB-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltd64f99b6297f2656/644022a4ab59a227af420273/CB_logo_960x960_Final_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20181205_cb_vanderlinden_004",
+        "location": {
+            "city": "Crested Butte",
+            "state": "CO",
+            "latitude": "38.8993",
+            "longitude": "-106.9657",
+            "elevation": "9375"
+        },
+        "brandColor": {
+            "backgroundColor": "#a6192e",
+            "lightText": true
+        },
+        "waitTimesAvailable": true,
+        "primaryMap": {
+            "name": "",
+            "id": "9dca99f6-1e2c-4b0b-b4b7-423314f0c80e"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.skicb.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "877-547-5143"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.skicb.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://cb.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://cb.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "27",
+        "title": "Whitetail",
+        "displayName": "Whitetail",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltd261b259bd342b47/6440218bea4ed2292f8d3fc2/whitetail-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt3f216207d4e34556/644022a467e76213aa9ba817/whitetail-logo_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20190305_WT_Beard_416",
+        "location": {
+            "city": "Mercersburg",
+            "state": "PA",
+            "latitude": "39.74167",
+            "longitude": "-77.93278",
+            "elevation": "865"
+        },
+        "brandColor": {
+            "backgroundColor": "#2f5b47",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "80ba2040-17e3-41e9-add5-30b89097e051"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.skiwhitetail.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "717-328-9400"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.skiwhitetail.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://wt.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://wt.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "17",
+        "title": "Stevens Pass",
+        "displayName": "Stevens Pass",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt07204c26936a583f/6440218b0736ac330839b37d/Stevenspass-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt21b7aebac6615e45/644022a40736ac330839b381/resorts-logo-stevenspass_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20220127-sv-sanders-010",
+        "location": {
+            "city": "Skykomish",
+            "state": "WA",
+            "latitude": "47.7447",
+            "longitude": "-121.0894",
+            "elevation": "4061"
+        },
+        "brandColor": {
+            "backgroundColor": "#0264a3",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "Frontside",
+            "id": "9e612148-382e-4979-b9f6-df0ab63cdb3a"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.stevenspass.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "206-812-4510"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.stevenspass.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://sp.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://sp.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "20",
+        "title": "Hunter",
+        "displayName": "Hunter",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt8f38056f9e07907d/6440210ca4989052e03377fc/hunter-bug-mountains-heavy-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt874c1b7d7191d108/644022a4dfdb9232fd8bb2e9/hunter-logo_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20210208_HU_Feilen_8",
+        "location": {
+            "city": "Hunter",
+            "state": "NY",
+            "latitude": "42.2029",
+            "longitude": "-74.2246",
+            "elevation": "1600"
+        },
+        "brandColor": {
+            "backgroundColor": "#3d7d94",
+            "lightText": true
+        },
+        "waitTimesAvailable": true,
+        "primaryMap": {
+            "name": "",
+            "id": "e33d8458-ff29-48ba-b4fb-fa909b27f999"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.huntermtn.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "518-263-4223"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.huntermtn.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://hu.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://hu.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "33",
+        "title": "Snow Creek",
+        "displayName": "Snow Creek",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltf3330bad42c319d0/6440218b9074ca2928c7a330/snow-creek-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltc3623fc9db761423/644022a4100129549ee9e5aa/snow-creek-footer-logo_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20190119_SC_SnowCreekPhotography_004",
+        "location": {
+            "city": "Weston",
+            "state": "MO",
+            "latitude": "39.4674",
+            "longitude": "-94.9706",
+            "elevation": "800"
+        },
+        "brandColor": {
+            "backgroundColor": "#dbae27",
+            "lightText": false
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "acebbb97-68d5-4620-8aa7-f3d3d6d95fbc"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.skisnowcreek.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "816-640-2200"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.skisnowcreek.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://sc.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://sc.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "18",
+        "title": "Stowe",
+        "displayName": "Stowe",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltc1a26d887c42dd39/652714923afa9a86175ceaa0/stowe-bug_1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltd0e9d2d74ba0f1a2/64403978ae33df13339bc1d2/stowe-2020-color_2.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20200219_ST_SCHLOFF_023",
+        "location": {
+            "city": "Stowe",
+            "state": "VT",
+            "latitude": "44.5289",
+            "longitude": "-72.7741",
+            "elevation": "2035"
+        },
+        "brandColor": {
+            "backgroundColor": "#ba0c2f",
+            "lightText": true
+        },
+        "waitTimesAvailable": true,
+        "primaryMap": {
+            "name": "",
+            "id": "d2fdba6b-d0c9-4281-ab1a-c06b72f3f9c7"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.stowe.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "802-253-3000"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.stowe.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://stowe.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://stowe.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "11",
+        "title": "Mount Sunapee",
+        "displayName": "Mount Sunapee",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt2002ab78e231c85d/6440218be8155811eeeae49e/Mt_Sunapee_-_Resort_Bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt8fa45eb969925221/644022a4a4989052e0337811/resorts-logo-mountsunapee_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20200213_MS_Evans_009",
+        "location": {
+            "city": "Newbury",
+            "state": "NH",
+            "latitude": "43.3316",
+            "longitude": "-72.0804",
+            "elevation": "1233"
+        },
+        "brandColor": {
+            "backgroundColor": "#00263e",
+            "lightText": true
+        },
+        "waitTimesAvailable": false,
+        "primaryMap": {
+            "name": "",
+            "id": "195c9a3c-7022-45ff-b8ed-2bdae98c14a5"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.mountsunapee.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "603-763-3500"
+            },
+            "zendeskEnabled": false,
+            "zendeskLink": {
+                "href": "",
+                "title": ""
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.mountsunapee.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://sun.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://sun.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    },
+    {
+        "resortId": "9",
+        "title": "Kirkwood",
+        "displayName": "Kirkwood",
+        "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/bltfec327310c516cee/6440210fa4989052e0337800/kirwood-resort-bug-1color.svg",
+        "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt780c9c00acb6773b/644022a43e745b11edf82221/kirkwood-mono-v1_1.svg",
+        "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20180316_KW_Cohen_003",
+        "location": {
+            "city": "Kirkwood",
+            "state": "CA",
+            "latitude": "38.6831",
+            "longitude": "-120.0665",
+            "elevation": "7800"
+        },
+        "brandColor": {
+            "backgroundColor": "#000000",
+            "lightText": true
+        },
+        "waitTimesAvailable": true,
+        "primaryMap": {
+            "name": "",
+            "id": "e76e0bfd-a8b6-40c5-b34c-1306df147e28"
+        },
+        "rentalBookingLink": {
+            "href": "https://www.kirkwood.com/plan-your-trip/rentals/winter-equipment.aspx",
+            "title": "Book Online"
+        },
+        "supportDetails": {
+            "phoneNumber": {
+                "description": "Contact Us",
+                "number": "209-258-6000"
+            },
+            "zendeskEnabled": true,
+            "zendeskLink": {
+                "href": "https://kirkwood.zendesk.com/hc/en-us",
+                "title": "Kirkwood Help Center"
+            }
+        },
+        "resortInfoHours": {
+            "title": ""
+        },
+        "environments": [
+            {
+                "environment_type": "Production",
+                "environment_url": "https://www.kirkwood.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "Test",
+                "environment_url": "https://kw.test.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            },
+            {
+                "environment_type": "QA",
+                "environment_url": "https://kw.qa.vailresorts.com/",
+                "__typename": "EnvironmentUrl"
+            }
+        ]
+    }
+]

@@ -15,13 +15,12 @@ struct MapView: View {
 
     var body: some View {
         VStack {
-            Text(map.mapName)
-            Toggle(isOn: $showClosed) {
-                Text("Show all  trails")
-            }
             AsyncImage(
                 url: URL(string: map.imageData.url + "?$JPG_oneToOne$"),
                 content: { image in
+                    Toggle(isOn: $showClosed) {
+                        Text("Show all  trails")
+                    }.padding()
                     image
                         .resizable()
                         .aspectRatio(contentMode: .fit)
@@ -39,7 +38,6 @@ struct MapView: View {
                     ProgressView()
                 }
             )
-            EmptyView()
         }
     }
 }
@@ -70,9 +68,14 @@ struct TrailView: View {
     let trail: Trail
 
     var body: some View {
-        if let path = trail.data.paths?.first {
-            RelativePath(points: path.points.map { ($0.x, $0.y) })
-                .stroke(color, style: StrokeStyle(lineWidth: 2, lineCap: .round, lineJoin: .round))
+        if let path = trail.data.paths?.first, let points = path.points {
+            RelativePath(points: points.map { ($0.x, $0.y) })
+                .stroke(color, style: StrokeStyle(
+                    lineWidth: 2,
+                    lineCap: .round,
+                    lineJoin: .round,
+                    dash: trail.data.trailLevel == .doubleBlackDiamond ? [5, 3, 1, 3] : []
+                ))
                 .onTapGesture {
                     print(trail.data.name)
                 }
@@ -83,8 +86,7 @@ struct TrailView: View {
         switch trail.data.trailLevel {
         case .greenCircle: .green
         case .blueSquare: .blue
-        case .blackDiamond: .black
-        case .doubleBlackDiamond: .black
+        case .blackDiamond, .doubleBlackDiamond, .doubleBlackDiamondExtreme: .black
         case .terrainParks: .orange
         }
     }
