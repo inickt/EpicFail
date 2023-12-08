@@ -18,7 +18,13 @@
             document.querySelector('#mapFrame').src = "https://mountain.live/interactive-map/" + params.get("primary") + "/us";
 
             const response = await fetch(
-                "https://api-az.vailresorts.com/digital/uiservice/api/v1/resorts/" + params.get("id") + "/maps"
+                "https://api-az.vailresorts.com/digital/uiservice/api/v1/resorts/" + params.get("id") + "/maps",
+                {
+                    headers: {
+                        "client_id": "acd8be1a83f441dbb9dfa5a598a1f6d2",
+                        "client_secret": "DDC5a7ccC7534c909bE5e1726ed0B8bf",
+                    },
+                }
             );
             const maps = await response.json();
             console.log(maps);
@@ -62,7 +68,7 @@
 <body>
     <h5 id="header"></h5>
     <div id="selector"></div>
-    <iframe id="mapFrame" title="Map"></iframe>
+    <iframe id="mapFrame" title="Map" allowfullscreen></iframe>
 </body>
 
 </html>
