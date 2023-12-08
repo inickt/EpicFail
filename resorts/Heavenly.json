@@ -1,0 +1,147 @@
+{
+    "resortId": "6",
+    "title": "Heavenly",
+    "displayName": "Heavenly",
+    "logo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt0026f3a7c2190629/6440210667e76213aa9ba80f/heavenly-resort-bug-1color.svg",
+    "extendedLogo": "https://images.contentstack.io/v3/assets/blt42fe4f2b5f9e3275/blt9b1017134962632d/644022a4884b8852e46b7fd8/heavenly-mono-v1_1.svg",
+    "primaryImage": "https://scene7.vailresorts.com/is/image/vailresorts/20191209_HV_Cupaiuolo_032",
+    "location": {
+        "city": "South Lake Tahoe",
+        "state": "CA",
+        "latitude": "38.9581",
+        "longitude": "-119.9429",
+        "elevation": "10067"
+    },
+    "brandColor": {
+        "backgroundColor": "#000000",
+        "lightText": true
+    },
+    "waitTimesAvailable": true,
+    "primaryMap": {
+        "name": "",
+        "id": "9b268505-964d-4e3e-9816-efee7b008b74"
+    },
+    "rentalBookingLink": {
+        "href": "https://www.skiheavenly.com/plan-your-trip/rentals/winter-equipment.aspx",
+        "title": "Book Online"
+    },
+    "supportDetails": {
+        "phoneNumber": {
+            "description": "Call Us",
+            "number": "775-586-7000"
+        },
+        "zendeskEnabled": true,
+        "zendeskLink": {
+            "href": "https://skiheavenly.zendesk.com/hc/en-us",
+            "title": "Heavenly Help Center"
+        }
+    },
+    "resortInfoHours": {
+        "title": "Resort Info & Hours",
+        "info": {
+            "basic_link": [
+                {
+                    "link_type": "Website",
+                    "link_url": "https://www.skiheavenly.com/",
+                    "__typename": "BasicLink"
+                },
+                {
+                    "link_type": "Facebook",
+                    "link_url": "https://www.facebook.com/SkiHeavenly/",
+                    "__typename": "BasicLink"
+                },
+                {
+                    "link_type": "Instagram",
+                    "link_url": "https://www.instagram.com/skiheavenly/",
+                    "__typename": "BasicLink"
+                }
+            ],
+            "email": {
+                "description": "Email",
+                "email_address": "Info@vailresorts.com",
+                "__typename": "EmailAddress"
+            },
+            "phone_number": {
+                "description": "Phone",
+                "phone_number": "775-586-7000",
+                "__typename": "PhoneNumber"
+            },
+            "__typename": "ResortInfoHoursGroup"
+        },
+        "hours": {
+            "display_title": "Lift Hours (Winter 2023/2024)",
+            "resort_hours": "Heavenly California Main Lodge Ticket Windows: \nMonday - Friday 8:30am - 4:30pm \nWeekends and Holidays 8:00am - 4:30pm\n\nGondola Ticket Windows: \nMonday - Friday 8:30am - 4:30pm \nWeekends and Holidays 8:00am - 4:30pm\n\nStagecoach and Boulder Ticket Offices:\nMonday - Friday 8:30am - 4:30pm \nWeekends and Holidays 8:00am - 4:30pm\n\nLift Hours:\nMonday - Friday 9:00am - 4:00pm \nWeekends and Holidays 8:30am - 4:00pm\n\nFor real time resort updates, follow @skiheavenly Twitter and Instagram! ",
+            "__typename": "ResortInfoHoursHours"
+        }
+    },
+    "environments": [
+        {
+            "environment_type": "Production",
+            "environment_url": "https://www.skiheavenly.com/",
+            "__typename": "EnvironmentUrl"
+        },
+        {
+            "environment_type": "Test",
+            "environment_url": "https://heavenly.test.vailresorts.com/",
+            "__typename": "EnvironmentUrl"
+        },
+        {
+            "environment_type": "Test",
+            "environment_url": "https://heavenly.qa.vailresorts.com/",
+            "__typename": "EnvironmentUrl"
+        }
+    ],
+    "resortDisclaimers": [
+        {
+            "display_title": "GPS Disclaimer",
+            "disclaimer_type": "Ski Patrol GPS",
+            "text": {
+                "embedded_itemsConnection": {
+                    "edges": [],
+                    "__typename": "LegalDisclaimerTextEmbeddedItemsConnection"
+                },
+                "json": {
+                    "type": "doc",
+                    "attrs": {},
+                    "uid": "7ec2abb196ea48a2831a10fb3b247b96",
+                    "children": [
+                        {
+                            "type": "p",
+                            "attrs": {},
+                            "uid": "f00999ab5020439d9877b371905a4837",
+                            "children": [
+                                {
+                                    "text": "GPS accuracy depends on external factors independent of this application, including settings on your device. The coordinates may not be accurate and are intended to be an approximation of your location. Please note, under no conditions should your smartphone be used as an avalanche transceiver. Depending on your location, you also may be unable to reach the designated recipient due to cell coverage and other factors."
+                                }
+                            ]
+                        }
+                    ],
+                    "_version": 1
+                },
+                "__typename": "LegalDisclaimerText"
+            },
+            "__typename": "LegalDisclaimer"
+        }
+    ],
+    "dailyStats": {
+        "lifts": {
+            "open": "0",
+            "total": "27"
+        },
+        "runs": {
+            "open": "8",
+            "total": "122"
+        },
+        "snowfall": "6in",
+        "temp": {
+            "hi": {
+                "f": "24°F",
+                "c": "24°F"
+            },
+            "lo": {
+                "f": "21°F",
+                "c": "21°F"
+            }
+        }
+    }
+}
