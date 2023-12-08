@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Fail</title>
+    <script defer>
+        const params = new URLSearchParams(window.location.search);
+        document.title = params.get("name");
+
+        window.onload = function () {
+            document.querySelector('#header').innerHTML = params.get("name");
+            loadMaps();
+        };
+
+        async function loadMaps() {
+            document.querySelector('#mapFrame').src = "https://mountain.live/interactive-map/" + params.get("primary") + "/us";
+
+            const response = await fetch(
+                "https://api-az.vailresorts.com/digital/uiservice/api/v1/resorts/" + params.get("id") + "/maps"
+            );
+            const maps = await response.json();
+            console.log(maps);
+
+            if (maps.length > 1) {
+                const options = maps.map((map) => {
+                    const selected = map.lumiplanMapId === params.get("primary") ? "selected " : " ";
+                    return "<option " + selected + "value='" + map.lumiplanMapId + "'>" + map.mapName + "</option>";
+                }).join("\n");
+                document.querySelector('#selector').innerHTML = "<select onchange='updateUrl(this)'>" + options + "</select>";
+            }
+        }
+
+        function updateUrl(picker) {
+            document.querySelector('#mapFrame').contentWindow.location.replace("https://mountain.live/interactive-map/" + picker.value + "/us");
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <style>
+        html,
+        body {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #mapFrame {
+            width: 100%;
+            height: 100%;
+            border: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h5 id="header"></h5>
+    <div id="selector"></div>
+    <iframe id="mapFrame" title="Map"></iframe>
+</body>
+
+</html>
